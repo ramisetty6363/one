@@ -1,0 +1,673 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+navbar {
+    background-color: rgba(240, 241, 243, 1);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+navbar .menu a {
+    font-size: 22px;
+    text-decoration: none;
+    color: gray;
+}
+
+navbar .menu span {
+    color: black;
+}
+
+navbar .menu {
+    width: 25%;
+    /* background-color: red;  */
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* navbar .menu a:hover {
+    color: black;
+} */
+
+/* navbar .profile  */
+
+
+.content {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(240, 241, 243, 1);
+    text-align: center;
+    padding-top: 70px;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+.container {
+    z-index: -100;
+    position: relative;
+}
+
+.box {
+
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(240, 241, 243, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.box .circle {
+    height: 150px;
+    width: 150px;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    border-radius: 50%;
+
+    padding-top: 20px;
+
+    position: absolute;
+    bottom: 200px;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: relative; */
+    /* background-color: blue; */
+
+}
+
+
+
+.background {
+    /* position: relative; */
+    width: 33%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 300px 300px 0px 0px;
+    /* z-index: -10; */
+
+}
+
+.background .photo {
+    width: 100%;
+    /* height: 700px; */
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* left: 380px; */
+    /* bottom: 0; */
+
+
+}
+
+
+.hero .disp1 {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.disp1 h3 {
+    font-size: 26px;
+}
+
+.disp1 p {
+    font-size: 20px;
+}
+
+.disp2 {
+    width: 24%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.disp2 .box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.disp2 h4 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.disp2 p {
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.disp2 .box4 img {
+    scale: 0.7;
+
+}
+
+.disp2 .box3 img {
+    scale: 0.7;
+    justify-content: flex-end;
+}
+
+.disp2 .box2 img {
+    scale: 0.7;
+    justify-content: flex-end;
+}
+
+.disp2 .box1 img {
+    scale: 0.7;
+    justify-content: flex-end;
+}
+
+.disp2 img {
+    /* display: flex; */
+    /* align-items:center;
+    justify-content: center; */
+}
+
+
+.x p {
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.p .images {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    scale: 0.8;
+    justify-content: space-evenly;
+}
+
+
+.crds {
+    width: 100%;
+    height: auto;
+    background-color: rgba(240, 241, 243, 1);
+        /* background-color:yellow; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.description1 {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.description1 h1 {
+    background-color: red;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.description2 {
+    background-color: brown;
+    width: 400px;
+    height: auto;
+    
+}
+.description2 p{
+    font-size: 18px;}
+
+
+
+.description p {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    background-color: white;
+
+  }
+  
+  .card1 {
+    background-color: lightblue;
+    width: 280px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 3px;
+  }
+  
+  .cards h1 {
+    font-size: 50px;
+  }
+/* 
+  .cards .card1:nth-child(even) {
+    padding-top: 20px;
+    background-color: lightblue;
+  } */
+
+  .cards :nth-child(even) {
+   margin-top: 50px;
+  }
+  
+  
+  .cards .card1 .card1top {
+    /* background: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .cards .card1 .card1top img {
+    background-color: yellow;
+    width: 6 0px;
+    height: auto;
+  }
+  
+  .cards .card1 .card1top h1 {
+    background-color: aqua;
+    width: 50px;
+    height: auto;
+  }
+  
+
+
+.visuals {
+    width: 100%;
+    height: 100%;
+    gap:20px;  
+    padding: 20px;
+    background-color: yellowgreen;
+
+
+}
+.visuals p{
+    font-size: 18px;
+}
+.visuals h1{
+    font-size: 28px;
+}
+
+.visuals .content1 {
+    width: 30%;
+}
+
+.visuals .images1,
+.images2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.visuals .images1 img {
+
+    width: 300px;
+    height: 400px;
+}
+
+.visuals .images2 img {
+    /* margin-top:50px; */
+    width: 300px;
+    height: 400px;
+}
+
+.service {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+
+}
+
+.service .tag {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* margin-left: 400px; */
+
+    /* gap:100px; */
+
+}
+
+.service .let1,
+.let2,
+.let3 {
+    width: 300px;
+    padding: 20px;
+    /* padding-top: 20px; */
+    /* height: 280px; */
+    border: 2px solid rgba(230, 232, 235, 1);
+
+    gap: 20px;
+}
+
+.service .lets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.let1 button {
+
+    border: none;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.let2 button {
+
+    border: none;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.let3 button {
+
+    border: none;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.client {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: brown; */
+    /* padding-left: 100px; */
+    /* margin-left: 250px; */
+    /* margin-top: 150px; */
+    /* margin-bottom: 200px; */
+    /* padding: 50px; */
+}
+
+.client .first {
+    width: 100%;
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.client .second {
+    padding: 30px;
+}
+
+.client .second img {
+    padding: 20px;
+}
+
+.client .second p {
+    padding: 20px;
+}
+
+.client .second h6 {
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+
+    /* background-color: yellow; */
+    background-color: black;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.footer1 .text {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    color: white;
+    /* background-color: black; */
+}
+
+.footer1 .text h1 {
+    font-size: 50x;
+    font-weight: lighter;
+}
+
+.footer1 .text p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.footer1 button {
+    width: 45%;
+    padding: 10px;
+}
+
+.footer1 .boxx {
+    width: 424px;
+    height: 360px;
+    display: flex;
+    /* margin-top: 150px; */
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer1 .boxx .boxx1,
+.boxx2,
+.boxx3 {
+    width: 360px;
+    height: 100px;
+    margin-left: 200px;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.footer1 .boxx .boxx1 img {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.footer1 .boxx .boxx2 img {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.footer1 .boxx .boxx2 {
+    color: black;
+    background-color: white;
+}
+
+.footer1 .boxx .boxx3 img {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.footer2 .contact1,
+.contact2,
+.contact3,
+h p {
+
+    color: white;
+}
+
+.footer2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+.contact1,
+.contact2,
+.contact3 {
+    width: 15%;
+    /* background-color: red; */
+    /* margin-left: 150px; */
+}
+
+.contact1,
+.contact2,
+.contact3,
+p {
+    font-size: small;
+    text-align: center;
+}
+
+.contact1,
+.contact2,
+.contact3,
+h3 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.footer3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: yellow; */
+}
+
+.footer3 .profoot {
+    padding-left: 120px;
+}
+
+.footer3 .profoot h3 {
+
+    color: white;
+
+}
+
+.footer3 .profoot p {
+    color: rgba(135, 144, 157, 1);
+}
+
+.footer3 .foot a {
+    text-decoration: none;
+
+    color: rgba(135, 144, 157, 1);
+
+}
+
+.footer3 .end p {
+    color: rgba(165, 172, 181, 1);
+
+}
+
+.footer3 .foot {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span {
+    color: white;
+    /* background-color: blue; */
+}
